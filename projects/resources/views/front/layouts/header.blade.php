@@ -77,7 +77,7 @@
                
                   
                     
-                     <li class="nav-item"><a class="nav-link"  href="{{ url('adu-for-sale') }}">Adu for sale</a></li>
+                     <li class="nav-item d-none"><a class="nav-link"  href="{{ url('adu-for-sale') }}">Adu for sale</a></li>
     <li class="nav-item"><a class="nav-link" href="{{ url('host-an-event') }}">Host an Events</a></li>
         <li class="nav-item"><a class="nav-link" href="{{ url('production') }}"> production </a></li>
                       <li class="nav-item"><a class="nav-link" href="{{ url('blogs') }}"> blogs </a></li>

@@ -647,7 +647,7 @@ $galleryList = App\Models\HomeGallery::orderByRaw('ISNULL(ordering), ordering AS
 <!-- Testimonial Section Start -->
 
 @php
-$list=App\Models\Testimonial::where("status","true")->orderBy("stay_date","desc")->take(6)->get();
+$list=App\Models\Testimonial::where("status","true")->orderBy("stay_date","desc")->get();
 @endphp
 @if(count($list)>0)
 <section class="testimonial ">
