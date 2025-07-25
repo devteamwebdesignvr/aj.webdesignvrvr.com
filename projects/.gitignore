@@ -6,3 +6,10 @@
 .env.*
 .phpunit.result.cache
 No_image_available.svg.webp
+
+
+../ckeditor
+../datepicker
+../drag-drop-image-uploader
+../front
+../live4calender
