@@ -2520,7 +2520,7 @@ section.book-entire-compound {
 .about_img img {
   width: 80%;
     height: 450px;
-    border-radius: 50% 0 0 0;
+    /* border-radius: 50% 0 0 0; */
 }
 
 .bkimage-sec.col-lg-6.aos-init.aos-animate {
