@@ -31,25 +31,25 @@ if($data->bannerImage){
                 <!-- Contact Info Box -->
                 <div class="contact-info-box col-lg-3 col-md-6 col-sm-12 d-none" >
                     <div class="box-inner">
-                        <h5>Address</h5>
+                        <h5>Address:</h5>
                         <p><i class="fas fa-map-marker-alt"></i> {!! $setting_data['address'] ?? '#' !!}</p>
                     </div>
                 </div>
                 <div class="contact-info-box col-lg-4 col-md-6 col-sm-12" >
                     <div class="box-inner">
-                        <h5>Phone</h5>
+                        <h5>Phone:</h5>
                         <p><i class="fa-solid fa-phone"></i><a href="tel:{!! $setting_data['mobile'] ?? '#' !!}"> {!! $setting_data['mobile'] ?? '#' !!}</a></p>
                     </div>
                 </div>
                 <div class="contact-info-box col-lg-4 col-md-6 col-sm-12" >
                     <div class="box-inner">
-                        <h5>Email address</h5>
+                        <h5>Email address:</h5>
                         <p><i class="fa-solid fa-envelope"></i><a href="mailto:{!! $setting_data['email'] ?? '#' !!}"> {!! $setting_data['email'] ?? '#' !!}</a></p>
                     </div>
                 </div>
                 <div class="contact-info-box col-lg-4 col-md-6 col-sm-12" >
                     <div class="box-inner">
-                        <h5>Directions</h5>
+                        <h5>Directions:</h5>
                          <p><i class="fa-solid fa-location-dot"></i>{{$data->shortDescription}}</p>
                         <!-- <p><i class="fa-solid fa-mobile"></i><a href="tel:{!! $setting_data['mobile'] ?? '#' !!}"> {!! $setting_data['mobile'] ?? '#' !!}</a></p> -->
                     </div>
