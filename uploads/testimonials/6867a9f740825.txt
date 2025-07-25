@@ -1,0 +1,14 @@
+1. removed extension (.jpg), we can't rename the images, images are coming from Api
+2. done (option given from home page).
+3. done (option given from home page).
+4. done (admin can update from Amenities Includes).
+5. done (option given from home page).
+6. done (title and description both can update from home page).
+7. done (for ordering provided orderin option on property listing page)
+
+
+Today's Report (01-07-2025)
+
+andrea.webdesignvrvr.com
+www.visitcreekside.com
+www.lakenoire.com

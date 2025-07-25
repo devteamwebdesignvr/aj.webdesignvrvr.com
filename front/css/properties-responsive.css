@@ -1,0 +1,56 @@
+
+
+@media (max-width: 1024px){
+  section.home-list .prop-card {
+    width: 47.5%
+
+}
+
+}
+  
+
+@media (max-width: 980px) {
+  
+  
+  
+  section.home-list .prop-card {
+    width: 47.5%;
+
+}
+  .map_div {
+    height: 400px !important;
+    margin-bottom: 30px;
+}
+  .search-bar{
+    width:100%;
+  }
+}
+
+
+@media (max-width: 540px) {
+    .map_div {
+    height: 300px !important;
+    margin-bottom: 30px;
+}
+  
+  section.home-list .col-12{
+    padding:0;
+  }
+  
+  section.home-list .col-sm-12{
+    padding:0;
+  }
+ 
+      section.home-list .prop-card {
+        width: 100%;
+    }
+  
+  section.home-list .prop-card {
+    margin-right: 0;
+}
+
+  .search-bar img {
+    display: none !important;
+}
+  
+}

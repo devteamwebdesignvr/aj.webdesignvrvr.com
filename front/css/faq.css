@@ -1,0 +1,87 @@
+
+/*faq css*/
+
+section.faq{
+    background: var(--white-color);
+}
+.how-we-value-heading {
+    text-align: center;
+    margin-bottom: var(--m40);
+}
+.how-we-value-heading p{
+    color: var(--secondary-color);
+}
+section.faq h2{
+    color: var(--black-color);
+}
+
+section.faq .list-faq{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 50px;
+    height: 100%;
+    padding-left: 18px;
+    font-size: 25px;
+    line-height: 58px;
+    color: var(--white-color);
+    background-color: var(--secondary-color);
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    -webkit-clip-path: polygon(0 0, 80% 0%, 100% 100%, 0% 100%);
+    clip-path: polygon(0 0, 80% 0%, 100% 100%, 0% 100%);
+}
+
+section.faq .accordion-flush .accordion-item{
+    border: 1px solid #E3E3E3;
+    border-top: 1px solid #E3E3E3;
+    background: var(--white-color);
+    margin-bottom: var(--m20);
+    border: none;
+}
+section.faq .accordion-flush .accordion-item .accordion-button, section.faq .accordion-flush .accordion-item .accordion-button.collapsed {
+    position: relative;
+    width: 100%;
+    padding: 22px 65px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #555555;
+    border: none;
+    background-color: transparent;
+    background-color: #f4f4f4;
+    text-align: left;
+}
+section.faq .accordion-button::after{
+    position: relative;
+    left: 25px;
+}
+section.faq .accordion-button:not(.collapsed){
+    background: var(--white-color);
+}
+section.faq p {
+    color: var(--primary-color);
+    font-size: var(--f14);
+    font-weight: 500;
+}
+
+.sec-line {
+    position: relative;
+    margin-bottom: var(--m15);
+    line-height: 0;
+}
+section.faq img{
+    border-radius: 10px;
+}
+section.faq .accordion-body {
+    color: var(--primary-color);
+    font-size: var(--f14);
+    box-shadow: 2px 3px 4px 0px #00000052;
+}
+.accordion-flush .accordion-collapse{
+    background:var(--white-color);
+}
+.accordion-button::after{
+    background-image: ur
+}
+

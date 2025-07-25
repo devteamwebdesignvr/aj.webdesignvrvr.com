@@ -1,0 +1,76 @@
+@media (max-width: 1366px){
+    .cda-content-inner p{
+        font-size: 13px;
+    }
+}
+@media (max-width: 1024px){
+    .contact-us .col-sm-12.col-md-12.col-lg-4.pl-0.pr-0, .contact-us .col-sm-12.col-md-12.col-lg-8.pl-0.pr-0{
+    width: 100%;
+}
+ .cda-content-inner p{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 980px){
+    section.contact-banner {
+    height: 218px;
+    padding-top: 0px;
+}
+  section.contact-banner h1 {
+    font-size: 32px;
+}
+}
+
+
+@media (max-width: 540px){ 
+  
+  .contact-page-section {
+    padding: 60px 0;
+}
+  
+      section.contact-banner h1 {
+        font-size: 28px;
+    }
+  
+      section.contact-banner {
+        height: 120px;
+        padding-top: 70px;
+    }
+  
+    .cda-icon i{
+        height: 40px;
+        width: 40px;
+        line-height: 40px;
+        font-size: 24px;
+        margin-right: 0px;
+        margin-bottom: 5px;
+    }
+    .cda-content-inner h4 {
+    font-size: 18px;
+    }
+    .cda-single-content {
+    margin: 0 10px;
+    padding: 15px 0 5px;
+    flex-direction: column;
+}
+.cda-content-inner h4 {
+    font-size: 17px;
+}
+.cda-content-inner p {
+    color: #fff;
+    margin: 6px 0;
+    font-size: 13px;
+}
+.contact_from_box {
+    padding: 30px 20px;
+}
+.contact_from_box .heading h6 {
+    font-size: 28px;
+}
+}
+@media (max-width: 360px){
+.cda-content-inner p{
+font-size: 12px;
+    }
+}

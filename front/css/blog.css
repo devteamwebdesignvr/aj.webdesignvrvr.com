@@ -1,0 +1,228 @@
+section.ajblog {
+    padding-top: 120px;
+}
+#secondary,#primary {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%
+}
+
+#primary {
+    flex: 1;
+    max-width: 100%;
+    overflow: hidden
+}
+
+#secondary .inner-sidebar {
+    height: 100%
+}
+
+#secondary .inner-sidebar .widget_media_image figure {
+    width: 100%;
+    margin: 0
+}
+
+.has-no-sidebar #primary {
+    overflow: inherit
+}
+ .pura-grid-wrapper img{
+ 
+ transition: 0.3s;
+}
+
+
+ .pura-grid-wrapper img:hover{
+ transform: scale(1.1);
+   
+  
+}
+    #secondary {
+        flex: 0 0 33%;
+        max-width: 30%;
+    }
+.pura-grid-wrapper {
+  margin-bottom:40px;
+}
+.b-img {
+    overflow: hidden;
+    margin-bottom: 24px;
+    border-radius: 25px;
+}
+section.ajblog #primary img {
+    display: block;
+    border: none;
+    max-width: 100%;
+    height: 400px;
+    object-fit:cover;
+    width: 100%;
+}
+.post-title h3 a{
+  color:#000;
+}
+.post-excerpt {
+    margin-top: 20px;
+}
+.btn-readmore a {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    position: relative;
+    text-transform: uppercase;
+    color: var(--btn-color);
+    padding: var(--p12) var(--p15);
+    text-align: center;
+    height: 50px;
+    margin-top: var(--m30);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border: 1px solid var(--btn-color);
+    border-radius: 50px;
+    letter-spacing: 5px;
+    font-weight: 400;
+}
+.post-meta {
+    font-size: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    color: #aaa;
+}
+.post-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sidebar-right .inner-sidebar {
+        padding-left: 30px;
+    }
+section#block-3 {
+    padding: 0 var(--p12);
+}
+.sidebar-left .wp-block-heading, .sidebar-right .wp-block-heading {
+    font-size: 24px;
+    font-family: var(--primary-font);
+    font-weight:600;
+    margin-bottom: 15px;
+}
+section#block-7 {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+section#block-8 {
+    padding-top: 0;
+}
+section#block-7 li{
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+section#block-7 img{
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.side-content h5{
+  font-size: 18px;
+    margin-bottom: 5px;
+}
+.side-content h5 a{
+  color:#000;
+}
+
+.banner{
+ display:none; 
+}
+#test-slider img{
+  height: 400px;
+    object-fit: cover;
+    width: 100%;
+}
+div#test-slider {
+    overflow: hidden;
+    margin-bottom: 24px;
+    border-radius: 25px;
+}
+section.ajblog.blog-details .pura-grid-wrapper {
+    margin-bottom: 0px;
+}
+section.ajblog.blog-details #secondary .inner-sidebar a{
+ color: hsl(118.13deg 42.67% 29.41%);
+    font-family: var(--primary-font); 
+  text-decoration:none;
+}
+section.ajblog.blog-details #secondary .inner-sidebar ul{
+  padding-left: 0;
+}
+section.ajblog h3{
+ font-weight:bold; 
+}
+
+
+
+
+section.blog-details .owl-carousel .owl-nav .owl-next, section.blog-details .owl-carousel .owl-nav .owl-prev {
+    position: absolute;
+    top: 50%;
+    z-index: 2;
+    left: 5px;
+    min-width: 35px;
+    background: var(--white-color);
+    margin: 0;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    border-radius: 100%;
+}
+section.blog-details .owl-carousel .owl-nav .owl-next {
+    left: auto;
+    right: 5px;
+}
+
+
+
+.b-img {
+    position: relative;
+    overflow: hidden;
+}
+
+.b-img img {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s ease;
+}
+
+.b-img::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #2d6b2bab;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: 1;
+}
+
+.b-img:hover img {
+    transform: scale(1.1);
+}
+
+.b-img:hover::after {
+    opacity: 1;
+}
+
+
+
+
+
+
+
+

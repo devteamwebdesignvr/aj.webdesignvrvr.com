@@ -1,0 +1,9 @@
+@media (max-width: 540px) {
+    section.home-list .col-12 {
+     padding:0;
+    }
+  
+  section.home-list img.img-fluid {
+    height: 200px;
+  }
+}

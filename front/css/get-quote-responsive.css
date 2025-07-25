@@ -1,0 +1,73 @@
+@media (max-width: 980px){
+    section.get-quote-sec h2 {
+    font-size: var(--f32);
+    }
+    .col-md-12.text-center {
+    padding: 0px;
+    }
+    .row.card-detail h3{
+    font-size: var(--f28);
+}
+
+}
+@media (max-width: 540px){
+    .quote.mob{
+        display:block;
+        border-top: 0px solid;
+    }
+    .quote.desk{
+        display:none;
+    }
+    section.get-quote-sec h2 {
+    font-size: var(--f28);
+}
+.quote.mob .head-area .col-6.col-md-6.col-sm-12 {
+    border-right: 1px solid var(--white-color);
+}
+.quote.mob .col-9 {
+    flex: 0 0 auto;
+    width: 60%;
+}
+.quote .col-9 p{
+    text-align:left;
+}
+.quote.mob .col-3 {
+    flex: 0 0 auto;
+    width: 40%;
+}
+.quote.mob p{
+    font-size: var(--f15);
+    line-height: 1.5;
+}
+.row.card-detail h3{
+    font-size: var(--f26);
+}
+h3.quote-head{
+    font-size: var(--f22);
+}
+.pro-detail p {
+    margin-bottom: 0px;
+    font-size: var(--f15);
+    line-height: 1.5;
+}
+.row.card-detail .col-md-4 {
+    flex: 0 0 auto;
+    width: 100%;
+}
+section.payment h4{
+    padding: 0px !important;
+}
+section.payment p {
+    padding: 0px !important;
+    word-wrap: break-word;
+}
+.pro-detail .col-3.col-md-3.col-sm-12.pdl {
+    width: 40%;
+}
+.pro-detail .col-9.col-md-9.col-sm-12.amt {
+    width: 60%;
+}
+}
+@media (max-width: 360px){
+    
+}

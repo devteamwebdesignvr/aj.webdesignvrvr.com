@@ -1,0 +1,106 @@
+.head-sec {
+    text-align: center;
+    margin-bottom: var(--m40);
+}
+.head-sec h2{
+    margin-bottom: 0px;
+    font-weight: 500;
+}
+
+.host-banner{
+	background: url(../images/service-banner.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
+	height: 390px;
+	padding-top: 107px;
+	display: none;
+}
+.host-banner .host-overlay{position: absolute;left: 0;top: 0;width: 100%;height: 100%;background: #000;opacity: 0.26;display: none;}
+.host-banner .container {
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.host-banner h1{
+	font-size: 64px;
+    margin-bottom: 0;
+    text-align: center;
+    font-weight: 500;
+}
+section.host-form{
+	max-width: 80%;
+	margin: auto;
+	padding-top: 120px;
+}
+section.host-form .head-sec{
+	text-align: center;
+}
+section.host-form h2{
+	margin-bottom: 20px;
+}
+section.host-form h4{
+	font-weight: 500;
+	margin-bottom: 15px;
+}
+section.host-form form p{
+	margin-bottom: 5px;
+    font-weight: bold;
+}
+section.host-form form label{
+	margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 14.4px;
+    line-height: 1.8em;
+}
+section.host-form form .check-list label, section.host-form form .budget-list label, section.host-form form .terms label{
+font-size: 13px;
+color: var(--black-color);
+font-weight: 500;
+margin-bottom: 0;
+}
+section.host-form form .check-list div, section.host-form form .budget-list div, section.host-form form .terms div{
+	display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+    width: 33.33%;
+}
+section.host-form form .check-list, section.host-form form .budget-list, section.host-form form .terms{
+	display: flex;
+    flex-wrap: wrap;
+}
+section.host-form form input[type="text"], section.host-form form input[type="tel"], section.host-form form input[type="email"], section.host-form form input[type="date"]{
+	width: 100%;
+	padding: var(--p10) var(--p15);
+	border: 1px solid #b9b2b2;
+	font-size: var(--f13);
+	font-family: var(--primary-font);
+	color: var(--black-color);
+	border-radius: 5px;
+	margin-bottom: var(--m10);
+}
+section.host-form form textarea{
+	width: 100%;
+	padding: var(--p10) var(--p15);
+	border: 1px solid #b9b2b2;
+	font-size: var(--f13);
+	font-family: var(--primary-font);
+	color: var(--black-color);
+	border-radius: 5px;
+	margin-bottom: var(--m10);
+	height: 120px;
+}
+section.host-form form .form-button {
+    text-align: center;
+    margin-top: 30px;
+}
+section.host-form form .form-button button{
+	width: 250px;
+	text-align: center;
+	border: 1px solid var(--btn-color);
+	color: var(--btn-color);
+}

@@ -1,0 +1,12 @@
+@media (max-width: 540px) {
+ 
+  div#book {
+    padding-left: 0;
+}
+ .property-detail .row.bottom .col-8{
+    width:100%;
+  }
+  .amenities{
+    padding-bottom: 20px;
+}
+}

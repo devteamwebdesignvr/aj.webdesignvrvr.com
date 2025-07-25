@@ -1,0 +1,70 @@
+.fields {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: var(--m30);
+} 
+.fields .main-label{
+    width: 25%;
+    color: var(--black-color);
+    font-size: var(--f15);
+}
+.fields .common-i{
+    width: 75%;
+}
+.fields .common-i label{
+    color: var(--black-color);
+    font-size: var(--f15);
+}
+input.form-control.common-i{
+    border-radius: 0;
+    border: 2px solid var(--black-color) !important;
+}
+ 
+
+.fields select{
+    width: 75%;
+    padding: .375rem .75rem;
+    border: 2px solid var(--black-color) !important;
+}
+.form-control:focus{
+    box-shadow: none;
+}
+form.manage-form{
+    padding: var(--p30);
+    background: var(--white-color);
+    box-shadow: 0px 1px 3px 2px rgba(0,0,0,0.1);
+}
+.manage-form{
+    display: none;
+}
+.submit-btn{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.submit-btn button{
+    border: 1px solid var(--black-color);
+    padding: var(--p10) var(--p50);
+    background: transparent;
+    color: var(--black-color);
+    transition: 0.6s ease-in-out;
+}
+.submit-btn button:hover{
+    background: #8CC63F;
+    color: var(--white-color);
+    border: 1px solid var(--white-color);
+}
+.cta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.cta h5{
+    margin-bottom: 0px;
+}
+.cta span{
+    text-decoration: underline;
+    cursor: pointer;
+}

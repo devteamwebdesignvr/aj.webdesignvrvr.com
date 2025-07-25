@@ -1,0 +1,123 @@
+.memory-section .row, .row .rev{
+    margin-bottom: 6rem;
+}
+
+.memory-section .memory-image img{
+    width: 110%;
+    display: block;
+    height: 650px;
+    object-fit: cover;
+    box-shadow: 0px 0px 4px #060606;
+    max-width: 107%;
+    position: absolute;
+}
+.memory-section .img {
+    width: 58.33333333%;
+    position: relative;
+}
+.memory-section .content {
+    width: 41.66666667%;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.memory-section .memory-item {
+    position: relative;
+    box-shadow: 0px 0px 1px #060606;
+    right: 0;
+    top: 0px;
+    background: #fff;
+    min-height: 435px;
+    z-index: 1;
+    padding: var(--p20);
+    height: auto;
+}
+.memory-section h2{
+    font-size: var(--f30);
+    margin-bottom: var(--m10);
+}
+.memory-section h2 a{
+    font-family: var(--secondary-font);
+}
+.memory-section .dot {
+    position: absolute;
+    right: -2rem;
+    bottom: -3.6rem;
+    left: auto;
+    text-align: end;
+    width: fit-content;
+}
+
+.memory-section .rev .memory-image img{
+    right:0px;
+}
+.memory-section .row:nth-child(even) .dot {
+    left: -2rem;
+}
+
+.memory-image {
+    height: 650px;
+    position: relative;
+}
+.memory-section .row.align-items-center {
+    margin: 0px;
+}
+ul.pagination .page-link{
+    color: var(--secondary-color);
+}
+ul.pagination .active>.page-link, ul.pagination .page-link.active{
+    color: var(--white-color);
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+}
+.listView__3Mvf .productCard__kpL9{
+    padding:0px !important;
+}
+section.attr-sec .row.heading .col-6{
+    padding:0px;
+}
+section.attr-sec .row.heading .col-6.right{
+    text-align: right;
+}
+section.attr-sec .attraction-sec a{
+    display: block;
+    position: relative;
+    height: 350px;
+    overflow: hidden;
+}
+section.attr-sec .attraction-sec img{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    transition: 0.5s all;
+}
+section.attr-sec .attraction-sec a:hover img {
+    transform: scale(1.14);
+    -webkit-transform: scale(1.14);
+    -ms-transform: scale(1.14);
+}
+section.attr-sec .attraction-sec .content-overlay{
+    background-color: rgba(0,0,0,0.45);
+    height: 350px;
+    z-index: 1;
+    position: relative;
+    padding: 20px;
+    color: var(--text-white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section.attr-sec .attraction-sec h2 {
+    text-align: center;
+    line-height: 1.2;
+    color: var(--white-color);
+    font-size: var(--f25);
+    margin-bottom: 0px;
+}
+.attraction-sec .col-4 {
+    padding: 12px;
+}
