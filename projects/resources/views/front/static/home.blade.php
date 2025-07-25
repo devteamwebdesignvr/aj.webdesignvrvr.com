@@ -391,7 +391,8 @@ $List=App\Models\Hospitable\HospitableProperty::where(["status"=>"true", "is_hom
       <div class="row">
             <div class="bkimage-sec col-lg-6" data-aos="fade-right" data-aos-duration="1500">                            
               <div class="about_img" >
-              <div style="padding:56.25% 0 0 0;position:relative;">
+				<img src="{{ asset('front/images/aj-book.png') }}" alt="">
+              <!-- <div style="padding:56.25% 0 0 0;position:relative;">
                 <iframe src="https://player.vimeo.com/video/{{ $data->book_compound_video }}?autoplay=1&loop=1&muted=1&title=0&background=1"
                         frameborder="0"
                         allow="autoplay; fullscreen; picture-in-picture"
@@ -399,7 +400,7 @@ $List=App\Models\Hospitable\HospitableProperty::where(["status"=>"true", "is_hom
                         title="Plan the Ultimate Group Getaway at Sol &amp; Santosha"
                         allowfullscreen>
                 </iframe>
-               </div>
+               </div> -->
 
          
                 
