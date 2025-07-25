@@ -57,7 +57,7 @@
 
                                             <li><a href="{{url('services')}}">Events</a></li>
 
-                                            <li><a href="{{url('adu-for-sale')}}">Adu For Sale</a></li>
+                                            <li class="d-none"><a href="{{url('adu-for-sale')}}">Adu For Sale</a></li>
 
                                             <li><a href="{{url('host-an-event')}}">Host An Events</a></li>
                                           
