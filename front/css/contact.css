@@ -218,6 +218,11 @@ section.contact-form-sec form textarea{
 }
 
 
+.contact-form .main-btn {
+    border: 1px solid var(--btn-color);
+    color: var(--btn-color);
+}
+
 
 
 
